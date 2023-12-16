@@ -35,7 +35,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 # Autotiling https://github.com/nwg-piotr/autotiling
-exec_always --no-startup-id autotiling1
+exec_always --no-startup-id autotiling
 
 # Touchpad Options via xinput 
 exec xinput set-prop "GXTP7863:00 27C6:01E0 Touchpad" "libinput Tapping Enabled" 1
